@@ -8,6 +8,14 @@ output:
 
 This webpage gives short introductions and links to all of the projects in my portfolio. If you are interested in contributing to a project or if you have questions / suggestions about a project please reach out to me on [LinkedIn](https://www.linkedin.com/in/garykoplik/).
 
+# Normalized Cross Correlation
+## Winter, 2018
+
+I go through the math and implementation of Normalized Cross Correlation for object detection with a toy example. See 
+[https://gjkoplik.github.io/normalized_cross_correlation/](https://gjkoplik.github.io/normalized_cross_correlation/) for more.
+
+![](./webpage_figure_cross_cor.png)
+
 # Spectral Clustering
 ## Fall, 2017
 
