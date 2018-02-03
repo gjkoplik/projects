@@ -22,7 +22,7 @@ I go through the math and implementation of Normalized Cross Correlation for obj
 I go through the theory of K-means and Spectral Clustering and include examples of their varying performance. See
 [https://gjkoplik.github.io/spectral_clustering/](https://gjkoplik.github.io/spectral_clustering/) for more.
 
-![](./swiss_roll_sc_animate.gif){width=45%}$\hspace{2ex}$![](./swiss_roll_kmeans_animate.gif){width=44%}
+![](./swiss_roll_combine.gif){width=100%}
 
 # Interactive Index of Well-Being
 ## Summer, 2017
