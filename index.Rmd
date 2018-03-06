@@ -1,12 +1,20 @@
 ---
 title: "Projects By Gary Koplik"
-date: "Updated December, 2017"
+date: "Updated March, 2018"
 output:
   tufte::tufte_html: default
 ---
 
 
 This webpage gives short introductions and links to all of the projects in my portfolio. If you are interested in contributing to a project or if you have questions / suggestions about a project please reach out to me on [LinkedIn](https://www.linkedin.com/in/garykoplik/).
+
+# Downloading and Parsing U.S. Treasury Auctions Data
+## Spring, 2018
+
+I wrote a batch file to run Python and R code that downloads and parses U.S. Treasury auctions data. The resulting datasets offer more detail than other freely available resources. I walk through the implementation of the code and then demonstrate some of the richness of the data through a brief exploratory data analysis using 2-year note auctions. See
+[https://gjkoplik.github.io/get_treasury_data/](https://gjkoplik.github.io/get_treasury_data/) for more.
+
+![](./two_year_source_of_bids.png)
 
 # Normalized Cross Correlation
 ## Winter, 2018
