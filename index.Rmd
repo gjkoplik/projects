@@ -13,7 +13,7 @@ This webpage gives short introductions and links to all of the projects in my po
 
 Working at Geometric Data Analytics, a company full of Topologists, I have routinely needed to write and interpret tools from Topological Data Analysis (TDA). TDA lives in the world of algebraic topology, a blending of Abstract Algebra and Topology concepts from mathematics. Abstract Algebra was never my strong suit, nor have I ever taken a formal topology class, so I created the following non-mathy explanations and examples for one of the tools that I frequently use, persistent homology. See [my publication on Towards Data Science](https://towardsdatascience.com/persistent-homology-with-examples-1974d4b9c3d0) for more.
 
-<iframe width="400" height="450" src=segmentation_lowerstar_widget.html></iframe>
+<iframe width="600" height="350" src=segmentation_lowerstar_widget.html></iframe>
 
 # Downloading and Parsing U.S. Treasury Auctions Data
 ## Spring, 2018
