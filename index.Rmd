@@ -1,12 +1,19 @@
 ---
 title: "Projects By Gary Koplik"
-date: "Updated March, 2018"
+date: "Updated September, 2020"
 output:
   tufte::tufte_html: default
 ---
 
 
 This webpage gives short introductions and links to all of the projects in my portfolio. If you are interested in contributing to a project or if you have questions / suggestions about a project please reach out to me on [LinkedIn](https://www.linkedin.com/in/garykoplik/).
+
+# Hiveplotlib
+## Fall, 2020
+
+Introducing hiveplotlib— a new, open-source Python package for generating Hive Plots. Originally developed by Martin Krzywinski, Hive Plots generate well-defined figures that allow for interpretable, visual explorations of network data. The hiveplotlib repository is visible to all on [Gitlab](https://gitlab.com/geomdata/hiveplotlib), with [documentation](https://geomdata.gitlab.io/hiveplotlib/index.html) including further explanation of Hive Plots, examples (both toy data and real data), and full documentation of the code. See [my publication on Towards Data Science](https://towardsdatascience.com/introducing-hiveplotlib-31014cefc7ac) for more.
+
+![](./karate_club.png)
 
 # A Non-Mathy Introduction to Persistent Homology
 ## Fall, 2019
