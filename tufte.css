@@ -1,0 +1,26 @@
+@font-face {
+font-family: "et-book";
+src: url(et-book-roman.ttf) format("truetype");
+font-weight: normal;
+font-style: normal
+}
+@font-face {
+font-family: "et-book";
+src: url(et-book-italic.ttf) format("truetype");
+font-weight: normal;
+font-style: italic
+}
+@font-face {
+font-family: "et-book";
+src: url(et-book-bold.ttf) format("truetype");
+font-weight: bold;
+font-style: normal
+}
+@font-face {
+font-family: "et-book-roman-old-style";
+src: url(et-book-display.ttf) format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+body { font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
+.numeral, .sidenote-number { font-family: et-book-roman-old-style; }
