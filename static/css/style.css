@@ -1,0 +1,250 @@
+:root {
+  --text: #222;
+  --muted: #666;
+  --link: #2a4ba5;
+  --rule: #ddd;
+  --banner: #1e3a8a;
+  --banner-text: #ffffff;
+  --banner-link: #eef1fb;
+  --max-width: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background: var(--banner);
+}
+
+.site-header nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.site-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--banner-text);
+}
+
+.site-name:hover {
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--banner-link);
+}
+
+.nav-links a:hover {
+  color: var(--banner-text);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+h1 {
+  font-size: 1.7rem;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.headshot {
+  width: 160px;
+  border-radius: 50%;
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
+.social-links {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  color: var(--text);
+}
+
+.social-links a:hover {
+  color: var(--link);
+}
+
+/* CV reads as a professional document: links are black, underlined for affordance */
+.cv a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 0.75rem;
+}
+
+.post-date {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+.post-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.post-item .post-date {
+  display: block;
+  margin-right: 0;
+  margin-top: 0.15rem;
+}
+
+.post-thumb {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+@media (max-width: 600px) {
+  .post-item {
+    flex-direction: column;
+  }
+
+  .post-thumb {
+    width: 100%;
+    height: 180px;
+  }
+}
+
+.post-summary {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Projects page: each project separated by a rule, image and links row under the blurb */
+.project-img {
+  display: block;
+  max-width: 100%;
+  max-height: 420px;
+  margin: 1rem auto;
+}
+
+/* For higher-density figures that don't hold up at full column width */
+.project-img-narrow {
+  max-width: 560px;
+}
+
+/* Two figures side by side; wraps to stacked on narrow screens */
+.img-pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.img-pair .pair-img {
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+}
+
+.project-embed {
+  display: block;
+  width: 100%;
+  height: 460px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+
+.project-links {
+  font-size: 0.95rem;
+}
+
+.project-links a {
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.project-links i {
+  margin-right: 0.3rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.site-footer p {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .headshot {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}

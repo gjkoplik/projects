@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicon.svg') }}">
+  <link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a class="site-name" href="{{ config.base_url }}/">Gary Koplik</a>
+      <div class="nav-links">
+        <a href="{{ get_url(path='@/projects.md') }}">Projects</a>
+        <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+        <a href="{{ get_url(path='@/cv.md') }}">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Gary Koplik {{ now() | date(format="%Y") }} &middot; Powered by
+      <a href="https://www.getzola.org/">Zola</a>,
+      <a href="https://fontawesome.com/">Font Awesome</a>, and
+      <a href="https://pages.github.com/">GitHub Pages</a>
+    </p>
+  </footer>
+</body>
+</html>

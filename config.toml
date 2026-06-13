@@ -1,0 +1,14 @@
+# Site config. base_url assumes GitHub Pages project hosting at gjkoplik.github.io/projects.
+# If this moves to a user site (gjkoplik.github.io) or a custom domain, update base_url only.
+base_url = "https://gjkoplik.github.io/projects"
+title = "Gary Koplik"
+description = "Gary Koplik's personal website: projects, blog, and CV"
+
+compile_sass = false
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+highlight_code = true
+highlight_theme = "inspired-github"

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="intro">
+  <img class="headshot" src="{{ get_url(path='images/headshot.jpg') }}" alt="Gary Koplik">
+  {{ section.content | safe }}
+</section>
+{% endblock content %}
