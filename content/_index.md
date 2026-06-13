@@ -2,7 +2,7 @@
 template = "index.html"
 +++
 
-# Applied math research, from idea to production
+# Software for Applied Math Research
 
 I'm a senior software engineer at [Geometric Data Analytics](https://geomdata.com/) in Durham, NC. I own systems end-to-end: database design, containerized backends, CI/CD, authentication, and user-facing frontends, including infrastructure serving generative AI applications.
 
