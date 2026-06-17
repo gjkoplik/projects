@@ -12,7 +12,7 @@ Short introductions and links for the projects in my portfolio. If you have ques
 I created hiveplotlib, an open-source Python package for generating hive plots. Originally developed by Martin Krzywinski, hive plots produce well-defined figures that allow for interpretable, visual explorations of network data. Current work includes speedups for hive plots as an exploratory data analysis tool, a custom multi-agent Claude Code harness, and an LLM-maintained project wiki that drives research and architecture decisions.
 
 <p class="project-links">
-<a href="https://gitlab.com/geomdata/hiveplotlib"><i class="fa-brands fa-gitlab"></i>GitLab</a>
+<a href="https://gitlab.com/hiveplotlib/hiveplotlib"><i class="fa-brands fa-gitlab"></i>GitLab</a>
 <a href="https://pypi.org/project/hiveplotlib/"><i class="fa-brands fa-python"></i>PyPI</a>
 <a href="https://hiveplotlib.readthedocs.io/stable/"><i class="fa-solid fa-book"></i>Documentation</a>
 <a href="https://medium.com/data-science/introducing-hiveplotlib-31014cefc7ac"><i class="fa-solid fa-newspaper"></i>Blog post</a>
@@ -48,7 +48,7 @@ I led a four-person research effort at Geometric Data Analytics to assess a pers
 With Ashlee Valente, I developed a novel visualization technique combining concepts from parallel coordinates plots and hive plots. Implemented in hiveplotlib as of v0.16.
 
 <p class="project-links">
-<a href="https://gitlab.com/geomdata/hiveplotlib"><i class="fa-brands fa-gitlab"></i>GitLab</a>
+<a href="https://gitlab.com/hiveplotlib/hiveplotlib"><i class="fa-brands fa-gitlab"></i>GitLab</a>
 <a href="https://pypi.org/project/hiveplotlib/"><i class="fa-brands fa-python"></i>PyPI</a>
 <a href="https://hiveplotlib.readthedocs.io/stable/"><i class="fa-solid fa-book"></i>Documentation</a>
 <a href="https://arxiv.org/abs/2109.10193"><i class="fa-solid fa-file-lines"></i>arXiv</a>
