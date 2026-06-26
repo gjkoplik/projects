@@ -22,16 +22,16 @@ I created hiveplotlib, an open-source Python package for generating hive plots. 
 
 <hr>
 
-## [Topological Signal Compression](https://geomdata.gitlab.io/topological-signal-compression/index.html)
+## [Topological Signal Compression](https://topological-signal-compression.gitlab.io/topological-signal-compression/index.html)
 
 *2021 - 2023*
 
 I led a four-person research effort at Geometric Data Analytics to assess a persistent homology-based signal compression algorithm, published to PyPI with online documentation. We presented at the 2023 IEEE Aerospace Conference and received the Best Paper award for the Remote Sensing Track.
 
 <p class="project-links">
-<a href="https://gitlab.com/geomdata/topological-signal-compression"><i class="fa-brands fa-gitlab"></i>GitLab</a>
+<a href="https://gitlab.com/topological-signal-compression/topological-signal-compression"><i class="fa-brands fa-gitlab"></i>GitLab</a>
 <a href="https://pypi.org/project/topological-signal-compression/"><i class="fa-brands fa-python"></i>PyPI</a>
-<a href="https://geomdata.gitlab.io/topological-signal-compression/index.html"><i class="fa-solid fa-book"></i>Documentation</a>
+<a href="https://topological-signal-compression.gitlab.io/topological-signal-compression/index.html"><i class="fa-solid fa-book"></i>Documentation</a>
 <a href="https://ieeexplore.ieee.org/abstract/document/10115654"><i class="fa-solid fa-file-lines"></i>IEEE Xplore</a>
 <a href="https://arxiv.org/abs/2206.07486"><i class="fa-solid fa-file-lines"></i>arXiv</a>
 <a href="../slides/topological_signal_compression_3_9_23.pdf"><i class="fa-solid fa-person-chalkboard"></i>Slides</a>

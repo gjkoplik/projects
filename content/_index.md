@@ -21,7 +21,7 @@ I care about making research usable: turning models and math into tools that rea
 ## Featured projects
 
 - [**Hiveplotlib**](https://hiveplotlib.readthedocs.io/stable/): open-source Python package for hive plots, a reproducible and interpretable way to visualize network data.
-- [**Topological Signal Compression**](https://geomdata.gitlab.io/topological-signal-compression/index.html): persistent homology-based signal compression, [presented](slides/topological_signal_compression_3_9_23.pdf) at the [2023 IEEE Aerospace Conference](https://ieeexplore.ieee.org/abstract/document/10115654) (also on [arXiv](https://arxiv.org/abs/2206.07486)) and awarded Best Paper for the Remote Sensing Track.
+- [**Topological Signal Compression**](https://topological-signal-compression.gitlab.io/topological-signal-compression/index.html): persistent homology-based signal compression, [presented](slides/topological_signal_compression_3_9_23.pdf) at the [2023 IEEE Aerospace Conference](https://ieeexplore.ieee.org/abstract/document/10115654) (also on [arXiv](https://arxiv.org/abs/2206.07486)) and awarded Best Paper for the Remote Sensing Track.
 
 [All projects &raquo;](@/projects.md)
 

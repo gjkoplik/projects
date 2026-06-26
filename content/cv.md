@@ -36,7 +36,7 @@ Software engineer with 8 years of experience taking cloud applications from idea
 
 **Topological Signal Compression** (2021 - 2023)
 
-- Led a four-person research effort to assess a persistent homology-based signal compression algorithm. Available on [PyPI](https://pypi.org/project/topological-signal-compression/) with [online documentation](https://geomdata.gitlab.io/topological-signal-compression/index.html).
+- Led a four-person research effort to assess a persistent homology-based signal compression algorithm. Available on [PyPI](https://pypi.org/project/topological-signal-compression/) with [online documentation](https://topological-signal-compression.gitlab.io/topological-signal-compression/index.html).
 - Presented "[Topological Simplification of Signals for Inference and Approximate Reconstruction](https://ieeexplore.ieee.org/abstract/document/10115654)" at the 2023 IEEE Aerospace Conference ([slides](../slides/topological_signal_compression_3_9_23.pdf)); Best Paper award for the Remote Sensing Track (out of 25 papers). Also on [arXiv](https://arxiv.org/abs/2206.07486).
 
 **Polar Parallel Coordinates Plots** (2021)
