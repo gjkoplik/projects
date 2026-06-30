@@ -28,6 +28,6 @@ I care about making research usable: turning models and math into tools that rea
 ## Featured writing
 
 - [Talking with a Partner Instead of Typing at a Worker](@/blog/talking-with-a-partner.md): you'll say more, and say it faster, speaking with LLMs instead of typing at them.
-- [Introducing Hiveplotlib](@/blog/introducing-hiveplotlib.md): a new open-source Python package for generating hive plots.
+- [A Non-Mathy Introduction to Persistent Homology](@/blog/persistent-homology-with-examples.md): using Topological Data Analysis (TDA) tools in data science, without any graduate-level math.
 
 [All blog posts &raquo;](@/blog/_index.md)
